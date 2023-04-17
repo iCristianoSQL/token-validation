@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 19rem;
+    width: 16.5rem;
+    background-color: gray;
+    padding: 4rem 0.5rem 2rem 0.5rem;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    width: 100%;
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Sem decoração de texto */
+    display: inline-block; /* Exibição em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Espaçamento externo */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    border-radius: 4px; /* Arredondamento das bordas */
+  }
+
+  input[type=text] {
+    width: 100%; /* Largura total */
+    padding: 12px 20px; /* Espaçamento interno */
+    margin: 8px 0; /* Espaçamento externo */
+    box-sizing: border-box; /* Box-sizing */
+    border: 2px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Arredondamento das bordas */
+  }
+
+  label {
+    font-size: 16px; /* Tamanho da fonte */
+    color: black; /* Cor do texto */
+  }
+
+  @keyframes token-animation {
+    0% {
+        color: red;
+    }
+    10% {
+        color: green;;
+    }
+    20% {
+        color: red;
+    }
+    30% {
+        color: green;;
+    }
+    40% {
+        color: red;
+    }
+    50% {
+        color: green;;
+    }
+    60% {
+        color: red;
+    }
+    70% {
+        color: green;;
+    }
+    80% {
+        color: red;
+    }
+    90% {
+        color: green;;
+    }
+    100% {
+        color: red;
+    }
+  }
+  
+  section {
+    margin-top: 1rem;
+  }
+  
+  span {
+    animation: token-animation 2s ease infinite;
+    font-weight: 600;
+    text-align: center; /* Centralizar texto */
+}
+
+b {
+    color: red;
+}
